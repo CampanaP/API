@@ -27,7 +27,7 @@
 				if(isset($_POST["cit"]))
 				{
 					$cit=$_POST["cit"];
-					echo $cit;
+					
 				}
 				else
 					$cit="bergamo";
@@ -64,7 +64,7 @@
 							echo("<th>LATITUDINE</th>");
 							echo("<th>LONGITUDINE</th>");
 						echo("</tr>");
-						for($i=0; $i<$lim; $i++)
+						for($i=0; $i<$num; $i++)
 						{
 							echo("<tr>");
 								echo("<td>");
