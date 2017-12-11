@@ -2,7 +2,7 @@
 	echo("<!DOCTYPE html>");
 	echo("<html>");
 		echo("<head>");
-			echo("<title>Ricerca</title>");
+			echo("<title>Compito</title>");
 			echo("<link rel='stylesheet' type='text/css' href='style.css'>");
 			echo("<script>");
 				echo("function controllo_campi()
